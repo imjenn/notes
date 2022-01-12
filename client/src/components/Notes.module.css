@@ -1,0 +1,28 @@
+.note {
+    background-color: rgb(255, 230, 87);
+    padding: 10px 25px;
+    margin: 50px 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.delete {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 14pt;
+    margin-bottom: 5px;
+}
+
+.delete:hover {
+    cursor: pointer;
+    background-color: red;
+    color: black;
+}
